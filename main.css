@@ -1,0 +1,122 @@
+:root {
+  --Color-Gray-Brightest: #FFFFFF ;
+  --Color-Gray-Brighter:  #F9F9F9 ;
+  --Color-Gray-Bright:    #CCCCCC ;
+  --Color-Gray-Dark:      #666666 ;
+  --Color-Gray-Darker:    #333333 ;
+  --Color-Gray-Darkest:   #000000 ;
+  
+  --Color-Red-Bright:     #FF0000 ;
+  --Color-Red-Dark:       #CC0000 ;
+
+  --Color-Orange-Bright:  #FF6633 ;
+  --Color-Orange-Dark:    #CC6600 ;
+  
+  --Color-Yellow-Bright:  #FFCC33 ;
+  --Color-Yellow-Dark:    #CC9900 ;
+
+  --Color-Lime-Bright:    #CCFF00 ;
+  --Color-Lime-Bright:    #99CC00 ;
+
+  --Color-Green-Bright:   #00CC00 ;
+  --Color-Green-Dark:     #009900 ;
+
+  --Color-Mint-Bright:    #00CC99 ;
+  --Color-Mint-Dark:      #009966 ;
+
+  --Color-Cyan-Bright:    #00CCCC ;
+  --Color-Cyan-Dark:      #009999 ;
+
+  --Color-Sky-Bright:     #00CCFF ;
+  --Color-Sky-Dark:       #0099CC ;
+
+  --Color-Blue-Bright:    #0000FF ;
+  --Color-Blue-Dark:      #0000CC ;
+
+  --Color-Purple-Bright:  #9900CC ;
+  --Color-Purple-Dark:    #660099 ;
+
+  --Color-Magenta-Bright: #CC00CC ;
+  --Color-Magenta-Dark:   #990099 ;
+
+  --Color-Wine-Bright:    #CC3366 ;
+  --Color-Wine-Dark:      #990033 ;
+}
+
+
+html, body {
+  margin: 0 ;
+}
+
+html {
+  height: 101% ;
+  background-color: var(--Color-Gray-Darker) ;
+  color: var(--Color-Gray-Brighter) ;
+}
+
+body {
+  height: 100% ;
+  text-align: center ;
+}
+
+a:link, a:visited {
+  color: var(--Color-Yellow-Bright) ;
+}
+
+a:hover, a:active {
+  color: var(--Color-Red-Bright) ;
+}
+
+h1 {
+  margin: 4em 0 2em 0;
+}
+
+h2 {
+  margin: 2em 0 ;
+}
+
+table {
+  font-size: 2em ;
+  margin: 2em auto ;
+  padding: 1em 3em ;
+  font-family: monospace ;
+}
+
+table.bright {
+  background-color: var(--Color-Gray-Brightest) ;
+  color: var(--Color-Gray-Darker) ;
+}
+
+table.dim {
+  background-color: var(--Color-Gray-Darkest) ;
+  color: var(--Color-Gray-Brighter) ;
+}
+
+table tr {
+  height: 1em ;
+}
+
+table tr th {
+  padding-bottom: 1em ;
+  font-weight: bold ;
+}
+
+table tr td:first-child,
+table tr td:nth-child(3){
+  width: 1em ;
+}
+
+table tr td:nth-child(2),
+table tr td:nth-child(4) {
+  width: 5em ;
+}
+
+pre {
+  width: 18em ;
+  margin: 1em auto ;
+  text-align: left ;
+}
+
+p:last-child {
+  margin: 2em 0 ;
+}
